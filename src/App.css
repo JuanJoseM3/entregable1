@@ -1,0 +1,44 @@
+* {
+box-sizing: border-box;
+}
+
+.App {
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 600px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.quotes-icon {
+  font-size: 35px;
+}
+
+.author, .button-container {
+  text-align: right;
+  margin-right: 30px;
+}
+
+.button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
